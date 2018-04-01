@@ -14,7 +14,7 @@ import io.swagger.annotations.ApiOperation;
 public class HelloWorldController {
 
 	@PostMapping(value = "/add")
-	@ApiOperation(value = "新增用户信息", notes = "新增用户信息")
+	@ApiOperation(value = "add user info", notes = "add user info")
 	public User hello(@RequestBody AddUserRequestDTO addUserRequestDTO) {
 		return new User();
 	}
